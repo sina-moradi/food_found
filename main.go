@@ -23,7 +23,6 @@ func main() {
 	)
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	fmt.Println(db, err)
-	fmt.Println(db, err)
 }
 
 //TIP See GoLand help at <a href="https://www.jetbrains.com/help/go/">jetbrains.com/help/go/</a>.
